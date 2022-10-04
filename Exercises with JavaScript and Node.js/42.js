@@ -9,5 +9,10 @@ const show_magicians = (magicianNames) => {
 show_magicians(magicianNames);
 
 const make_great = (magicianNames) => {
-    
+    for (let i=0; i< magicianNames.length; i++) {
+        magicianNames[i] = `Great ${magicianNames[i]}`
+    }
 }
+
+make_great(magicianNames)
+show_magicians(magicianNames);
