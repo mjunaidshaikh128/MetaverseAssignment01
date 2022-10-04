@@ -1,8 +1,8 @@
 
-function sandwiches() {
+function sandwiches(...items) {
     console.log("Summary of Items for Sandwich")
-    for (let i=0; i < arguments.length; i++) {
-        console.log(arguments[i])
+    for (let i=0; i < items.length; i++) {
+        console.log(items[i])
     }
 }
 
